@@ -1,0 +1,71 @@
+.big-button, .button
+{
+    background-image: $text-gradient;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: $l-size;
+    width: 100%;
+    margin-bottom: $xl-size;
+    padding: 2.4rem;
+    outline: none;
+}
+
+.button
+{
+    padding: $m-size;
+    font-size: $m-size;
+    // width: 30%;
+}
+
+.button--add
+{
+    margin: 0;
+}
+.button--add--input
+{
+    width: 30%;
+}
+.button--link
+{
+    border: none;
+    background: none;
+    color: $link-color;
+    font-weight: 500;
+    font-size: $m-size;
+    margin: 0;
+}
+
+.button--RemoveAll
+{
+    border: none;
+    background: none;
+    color: $link-color;
+    font-weight: 500;
+    font-size: $s-size;
+    margin: 0;
+}
+
+
+.button--link:hover
+{
+    background-image: $text-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+
+@media(max-width : $mobile-breakpoint)
+{
+    .big-button
+    {
+        margin-bottom: $l-size;
+        font-size: $m-size;
+    }
+    .button--add,.button--add--input
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.Header
+{
+    margin-bottom: 4.8rem;
+    background-color: $background;
+    padding: $m-size;
+    font-weight: bold;
+}
+.Header__title
+{
+    margin-top: 0rem;
+}
+.Header__subtitle
+{
+    margin-bottom: 0rem;
+}
+.Header__title, .Header__subtitle
+{
+    background-image: $text-gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}

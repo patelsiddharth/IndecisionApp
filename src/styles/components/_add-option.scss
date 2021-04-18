@@ -1,0 +1,43 @@
+.Add-Option-Error
+{
+    color: $link-color;
+    font-style: italic;
+    padding: 0 $m-size;
+    margin-bottom: 0;
+}
+
+.add-option
+{
+    display: flex;
+    flex-direction: row;
+    padding: $m-size;
+}
+
+.add-option__input
+{
+    background : $body-background;
+    border: none;
+    border-bottom: 0.3rem solid darken($body-background, 10%);
+    flex-grow: 1;
+    margin-right: $s-size;
+    color: $link-color;
+}
+
+@media(max-width : $mobile-breakpoint)
+{
+    .add-option
+    {
+        flex-direction: column;
+    }
+
+    .add-option__input
+    {
+        margin : 0 0 $s-size 0;
+        height: 4.54rem;
+    }
+
+    .button--add
+    {
+        width: 100%;
+    }
+}

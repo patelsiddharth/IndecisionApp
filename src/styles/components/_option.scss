@@ -1,0 +1,18 @@
+.option
+{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: $border-bottom;
+    padding: $s-size;
+}
+
+.option__text
+{
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 0;
+    word-break: break-all;
+}

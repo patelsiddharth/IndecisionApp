@@ -1,0 +1,31 @@
+.widget
+{
+    background: $widget-body-bg;
+    margin-bottom: $xl-size;
+}
+
+.widget-header
+{
+    background : $widget-header-bg;
+    color: $link-color;
+    padding: $m-size;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.widget-header__title
+{
+    margin: 0;
+    align-self: center;
+}
+
+.widget__message
+{
+    border-bottom: $border-bottom;
+    text-align: center;
+    color: $link-color;
+    margin: 0;
+    padding: $l-size;
+}
